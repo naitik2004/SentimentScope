@@ -6,7 +6,7 @@ import TrendChart from './TrendChart';
 import DonutChart from './DonutChart';
 import TextInput from './TextInput';
 import SentimentFeed from './SentimentFeed';
-import { BarChart3, Activity, Target, Zap } from 'lucide-react';
+import { Activity, Target, Zap } from 'lucide-react';
 import { formatPercentage } from '../utils/formatters';
 import { SENTIMENT_CONFIG } from '../constants/sentimentConfig';
 

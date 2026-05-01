@@ -22,4 +22,4 @@ def mock_hf_client(mocker):
         LabelScore(label="NEUTRAL", score=0.08),
         LabelScore(label="NEGATIVE", score=0.02)
     ]
-    return mocker.patch("backend.app.api.v1.analyse.classify_text", return_value=mock_response)
+    return mocker.patch("app.api.v1.analyse.classify_text", return_value=mock_response)
