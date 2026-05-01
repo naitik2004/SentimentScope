@@ -1,9 +1,9 @@
 import pytest
 from fastapi.testclient import TestClient
 from httpx import AsyncClient
-from ..app.main import app
-from ..app.core.hf_client import classify_text
-from ..app.models.sentiment import LabelScore
+from app.main import app
+from app.core.hf_client import classify_text
+from app.models.sentiment import LabelScore
 
 @pytest.fixture
 def client():
