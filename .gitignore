@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+
+# ML
+ml/data/*
+!ml/data/.gitkeep
+ml/checkpoints/
+ml/logs/
+wandb/
+*.png
+
+# Node
+node_modules/
+.next/
+out/
+build/
+.vercel
+*.log
+
+# Docker
+.dockerignore
+
+# OS
+.DS_Store
+Thumbs.db
